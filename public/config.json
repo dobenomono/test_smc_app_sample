@@ -17,8 +17,9 @@
         "execute": {
            "inArguments":[
 				{
-                    "emailAddress": "{{InteractionDefaults.Email}}"
-                }									
+                    "emailAddress": "hello"
+                    //"emailAddress": "{{InteractionDefaults.Email}}"
+                }
 			],
           "outArguments": [],
           "url": "https://testsamplesmcapp.herokuapp.com/journeybuilder/execute",
