@@ -83,14 +83,15 @@ exports.execute = function (req, res) {
         }
 
         if (decoded && decoded.inArguments && decoded.inArguments.length > 0) {
-            var postcardURLValue = $('#postcard-url').val();
-        	var postcardTextValue = $('#postcard-text').val();
+        
             // decoded in arguments
             var decodedArgs = decoded.inArguments[0];
+            console.log("@@@@@");
             console.log(postcardURLValue);
             console.log(postcardTextValue);
             console.log(decodedArgs);
             logData(req);
+            console.log("@@@@@");
             res.send(200, 'Execute');
         } else {
             console.error('inArguments invalid.');
