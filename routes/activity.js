@@ -118,3 +118,13 @@ exports.validate = function (req, res) {
     logData(req);
     res.send(200, 'Validate');
 };
+
+/*
+ * POST Handler for /stop/ route of Activity.
+ */
+exports.stop = function (req, res) {
+    // Data from the req and put it in an array accessible to the main app.
+    //console.log( req.body );
+    logData(req);
+    res.send(200, 'stop');
+};
