@@ -17,7 +17,7 @@
         "execute": {
            "inArguments":[
 				{
-                    "emailAddress": "hello"
+                    "emailAddress": "{{InteractionDefaults.Email}}"
                 }
 			],
           "outArguments": [],
