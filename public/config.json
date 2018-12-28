@@ -18,6 +18,12 @@
            "inArguments":[
 				{
                     "emailAddress": "{{InteractionDefaults.Email}}"
+                },
+                {
+                    "emailAddress2": "{{t_custom_activity_de.Default.name}}"
+                },
+                {
+                    "emailAddress3": "{{t_custom_activity_de.name}}"
                 }
 			],
           "outArguments": [],

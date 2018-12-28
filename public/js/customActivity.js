@@ -79,7 +79,8 @@ define([
             "emailAddress": "{{InteractionDefaults.Email}}",
             "postcardURL": postcardURLValue,
             "postcardText": postcardTextValue,
-            "emailAddress2": "{{t_custom_activity_de.Default.name}}"
+            "emailAddress2": "{{t_custom_activity_de.Default.name}}",
+            "emailAddress3": "{{t_custom_activity_de.name}}"
         }];
         
         payload['metaData'].isConfigured = true;
