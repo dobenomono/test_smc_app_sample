@@ -79,7 +79,7 @@ define([
             "emailAddress": "{{InteractionDefaults.Email}}",
             "postcardURL": postcardURLValue,
             "postcardText": postcardTextValue,
-            "emailAddress2": "{{Contact.Attribute.["Contact ID"]}}"
+            "emailAddress2": "{{t_custom_activity_de.name}}"
         }];
         
         payload['metaData'].isConfigured = true;
