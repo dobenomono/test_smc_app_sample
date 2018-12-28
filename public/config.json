@@ -17,7 +17,8 @@
         "execute": {
            "inArguments":[
 				{
-                    "emailAddress": "{{InteractionDefaults.Email}}"
+                    "emailAddress": "{{InteractionDefaults.Email}}",
+                    "neme": "{{Contact.Attribute.t_custom_activity_de.name}}"
                 }
 			],
           "outArguments": [],

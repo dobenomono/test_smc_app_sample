@@ -74,7 +74,8 @@ define([
         console.log("@@@@@");
         payload['arguments'].execute.inArguments = [{
             "tokens": authTokens,
-            "emailAddress": "{{InteractionDefaults.Email}}"
+            "emailAddress": "{{InteractionDefaults.Email}}",
+            "neme": "{{Contact.Attribute.t_custom_activity_de.name}}"
         }];
         
         payload['metaData'].isConfigured = true;
