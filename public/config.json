@@ -18,9 +18,6 @@
            "inArguments":[
 				{
                     "emailAddress": "{{InteractionDefaults.Email}}"
-                },
-                {
-                    "name": "{{Contact.Attribute.t_custom_activity_de.name}}"
                 }
 			],
           "outArguments": [],
