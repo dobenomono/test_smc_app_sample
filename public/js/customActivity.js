@@ -75,7 +75,7 @@ define([
         payload['arguments'].execute.inArguments = [{
             "tokens": authTokens,
             "emailAddress": "{{InteractionDefaults.Email}}",
-            "name": "{{Contact.Attribute.t_custom_activity_de.name}}"
+            "name": "hello"
         }];
         
         payload['metaData'].isConfigured = true;
