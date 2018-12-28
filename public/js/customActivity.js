@@ -72,11 +72,14 @@ define([
         console.log(postcardURLValue);
         console.log(postcardTextValue);
         console.log("@@@@@");
+        //ジャーニーをアクティブ化した際にセットされる
+        //ジャーニーで設定した内容をパラメータとしてセット可能
         payload['arguments'].execute.inArguments = [{
             "tokens": authTokens,
             "emailAddress": "{{InteractionDefaults.Email}}",
             "postcardURL": postcardURLValue,
             "postcardText": postcardTextValue,
+            "phoneNumber": "{{Contact.Default.PhoneNumber}}"
         }];
         
         payload['metaData'].isConfigured = true;

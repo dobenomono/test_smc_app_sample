@@ -70,6 +70,7 @@ exports.save = function (req, res) {
 
 /*
  * POST Handler for /execute/ route of Activity.
+ ジャーニーへの連絡先エントリ時やアクティブ化時に実行される
  */
 exports.execute = function (req, res) {
 
