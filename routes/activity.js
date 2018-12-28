@@ -86,12 +86,10 @@ exports.execute = function (req, res) {
         
             // decoded in arguments
             var decodedArgs = decoded.inArguments[0];
-            console.log("@@@@@");
-            console.log(postcardURLValue);
-            console.log(postcardTextValue);
+            console.log("+++++");
             console.log(decodedArgs);
             logData(req);
-            console.log("@@@@@");
+            console.log("+++++");
             res.send(200, 'Execute');
         } else {
             console.error('inArguments invalid.');

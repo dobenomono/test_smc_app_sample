@@ -68,7 +68,10 @@ define([
     function save() {
         var postcardURLValue = $('#postcard-url').val();
         var postcardTextValue = $('#postcard-text').val();
-
+        console.log("@@@@@");
+        console.log(postcardURLValue);
+        console.log(postcardTextValue);
+        console.log("@@@@@");
         payload['arguments'].execute.inArguments = [{
             "tokens": authTokens,
             "emailAddress": "{{InteractionDefaults.Email}}"
