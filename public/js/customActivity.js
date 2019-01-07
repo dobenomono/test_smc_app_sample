@@ -79,7 +79,8 @@ define([
             "emailAddress": "{{InteractionDefaults.Email}}",
             "postcardURL": postcardURLValue,
             "postcardText": postcardTextValue,
-            "emailAddress2": "{{Contact.Key}}"
+            "contact_key": "{{Contact.Key}}",
+            "contact_id": "{{Contact.ID}}"
         }];
         
         payload['metaData'].isConfigured = true;

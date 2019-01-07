@@ -18,9 +18,6 @@
            "inArguments":[
 				{
                     "emailAddress": "{{InteractionDefaults.Email}}"
-                },
-                {
-                    "emailAddress2": "{{Contact.Key}}"
                 }
 			],
           "outArguments": [],
