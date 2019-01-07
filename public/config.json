@@ -20,10 +20,7 @@
                     "emailAddress": "{{InteractionDefaults.Email}}"
                 },
                 {
-                    "emailAddress2": "{{t_custom_activity_de.Attribute.name}}"
-                },
-                {
-                    "emailAddress3": "{{t_custom_activity_de.name}}"
+                    "emailAddress2": "{{Contact.Key}}"
                 }
 			],
           "outArguments": [],
@@ -37,7 +34,7 @@
         }
     },
     "configurationArguments": {
-      "applicationExtensionKey": "68b45154-49f8-4866-b7ac-895c2de7c23b",
+      "applicationExtensionKey": "4d5629a0-9c0b-47a5-81d4-334a3ff09f47",
       "save": {
         "url": "https://testsamplesmcapp.herokuapp.com/journeybuilder/save",
           "verb": "POST",
