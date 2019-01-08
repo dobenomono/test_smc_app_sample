@@ -68,6 +68,8 @@ define([
     function save() {
         var postcardURLValue = $('#postcard-url').val();
         var postcardTextValue = $('#postcard-text').val();
+        var elem = document.getElementById("image01");
+        elem.src = postcardURLValue;
         console.log("@@@@@");
         console.log(postcardURLValue);
         console.log(postcardTextValue);
