@@ -31,7 +31,7 @@
         }
     },
     "configurationArguments": {
-      "applicationExtensionKey": "4d5629a0-9c0b-47a5-81d4-334a3ff09f47",
+      "applicationExtensionKey": "",
       "save": {
         "url": "https://testsamplesmcapp.herokuapp.com/journeybuilder/save",
           "verb": "POST",
